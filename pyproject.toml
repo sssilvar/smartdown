@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "smartdown"
+version = "0.1.0"
+description = "A project for extracting main content from HTML articles and converting them to Markdown format."
+authors = ["Santiago SILVA <16252054+sssilvar@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+spacy = "^3.5.3"
+beautifulsoup4 = "^4.12.2"
+markdownify = "^0.11.6"
+markdown = "^3.4.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.23.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
